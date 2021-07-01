@@ -22,7 +22,7 @@
                   <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contato</a>
+                  <a class="nav-link" href="#" onclick="window.location.href='./contato.html'" >Contato</a>
                 </li>
               </ul>
              
@@ -32,33 +32,40 @@
 
     <main>       
         <div class="container">
-            <div class="row">
-                <div class=" col-sm-6  col-md-12">
+              <div class="row">
+                  <div class="col-md-12">
                     <h3>Conversor de Temperatura</h3>
-                    <p>Escolha as medidas que deseja converter e insira o valor no campo especificado</p>
-                    <div class="conteudo">
-                        <select class="custom-select-3 ">
-                            <option selected>Selecione uma opção</option>
-                            <option value="1">Celsius</option>
-                            <option value="2">Fahrenheit</option>
-                            <option value="3">Kelvin</option>
-                          </select>
-    
-                          <input class="input" type="number">
-                                                         
-                          <button class="btn btn-primary" type="submit">Button</button>
-                          
-                          <select class="custom-select-3">
-                            <option selected>Selecione uma opção</option>
-                            <option value="1">Celsius</option>
-                            <option value="2">Fahrenheit</option>
-                            <option value="3">Kelvin</option>
-                          </select>
-                          
-                          <input class="input" type="number">
-                    </div>                    
-                </div>
-            </div>
+                    <p>Escolha as medidas que deseja converter e insira o valor no campo especificado, após , clique
+                       em "Converter" para obter o resultado da conversão. </p>
+                  </div>
+                      
+                        <div class="alinhamento">
+
+                              <div>
+                                <select class="select">
+                                  <option >Selecione uma opção</option>
+                                  <option selected value="1">Celsius</option>
+                                  <option value="2">Fahrenheit</option>
+                                  <option value="3">Kelvin</option>
+                                </select>
+          
+                                <input class="input" type="number" placeholder="Insira o valor" style="text-align: center;">
+                              </div>
+                                                  
+                              <button style="margin:10px; height: 40px;" class="btn btn-primary" type="submit">Converter</button>
+                                
+                              <div>
+                                <select class="select">
+                                  <option >Selecione uma opção</option>
+                                  <option value="1">Celsius</option>
+                                  <option selected value="2">Fahrenheit</option>
+                                  <option value="3">Kelvin</option>
+                                </select>
+                                    
+                                <input class="input" type="number" placeholder="Resultado" style="text-align: center;" readonly>
+                              </div> 
+                        </div>                                   
+              </div>
         </div>       
     </main>
 
