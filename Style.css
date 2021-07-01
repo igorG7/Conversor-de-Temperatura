@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* 
+div > .custom-select-3 , .input {
+    display: block;
+}
+
+.conteudo {
+    display: flex;
+} */
