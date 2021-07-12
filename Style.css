@@ -31,5 +31,7 @@ div > .select {display: block;}
 }
 
 @media screen and (max-width:540px) {
-    .alinhamento{display: block;}    
+    .alinhamento{display: block;}  
+    p {font-size: 20px;} 
+    
 }

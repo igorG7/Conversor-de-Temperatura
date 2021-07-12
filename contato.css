@@ -4,3 +4,17 @@ button {
     background: none;
     border: none;
 }
+
+.div-responsivo-contatos {margin: 16px 0;}
+
+.p-responsivo {display: inline-block;}
+
+.a-responsivo {display: none;}
+
+@media screen and (max-width:540px) {
+    main {font-size: 20px;} 
+    .p-responsivo {display: none;}
+    .a-responsivo {display: flex;}
+    .div-responsivo-contatos {display: inline-block; margin: 32px 12px 0 0;}
+    .conteudo-contatos { display: flex; justify-content: center;}    
+}
