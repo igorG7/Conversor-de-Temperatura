@@ -22,16 +22,26 @@ div > h3 , p{text-align: center;}
     display: flex;
 }
 
+.botao {
+   background-color: #0972e2;
+   color: #fff; 
+   border: none;
+   border-radius: 4px;
+   width: 90px;
+   height: 40px;
+   margin: 1em;
+}
 
 div > .select {display: block;}
 
 .select {
-    width: 182px;
+    width: 11.5em;
     margin-bottom: 16px;
 }
 
 @media screen and (max-width:540px) {
     .alinhamento{display: block;}  
     p {font-size: 20px;} 
+    .botao {margin: 1em 1em 1em 2.8em;}
     
 }
