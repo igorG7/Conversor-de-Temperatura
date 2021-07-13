@@ -30,6 +30,7 @@ div > h3 , p{text-align: center;}
    width: 90px;
    height: 40px;
    margin: 1em;
+   text-align: center;
 }
 
 div > .select {display: block;}
@@ -42,6 +43,18 @@ div > .select {display: block;}
 @media screen and (max-width:540px) {
     .alinhamento{display: block;}  
     p {font-size: 20px;} 
-    .botao {margin: 1em 1em 1em 2.8em;}
+
+    .botao {
+        display: block;
+        margin: 1em auto;               
+    }
+
+    input, .select {
+        width: 9em;
+        display: flex;
+        justify-content: center;
+    }
+
+
     
 }
