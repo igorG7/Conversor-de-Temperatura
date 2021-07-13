@@ -50,7 +50,7 @@ div > .select {display: block;}
     }
 
     input, .select {
-        width: 9em;
+        width: 11em;
         display: flex;
         justify-content: center;
     }
