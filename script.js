@@ -24,7 +24,7 @@ function calculo(){
           if(medidaConvertidaRetorno == "kelvin"){
               var operacao = (valorDeEntrada - 32) * 5/9 + 273.15;
           }
-          document.getElementById("resultado").value = operacao.toFixed(3) //Retorna o valor da variavel operacao no elemento de input "resultado"
+          document.getElementById("resultado").value = operacao.toFixed(2) //Retorna o valor da variavel operacao no elemento de input "resultado"
       }
       //Medida entrada = Kelvin
       if (medidaDeEntradaInicial == "kelvin"){
