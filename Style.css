@@ -10,8 +10,6 @@ main {
 
 div > h3 , p{text-align: center;}
 
-
-
 .row {
     margin-top: 10vh;
     justify-content: center;     
@@ -53,8 +51,5 @@ div > .select {display: block;}
         width: 11em;
         display: flex;
         justify-content: center;
-    }
-
-
-    
+    }    
 }
